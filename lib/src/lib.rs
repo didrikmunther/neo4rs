@@ -753,7 +753,6 @@
 mod config;
 mod connection;
 mod convert;
-mod errors;
 mod graph;
 mod messages;
 mod pool;
@@ -763,6 +762,7 @@ mod stream;
 mod txn;
 mod version;
 
+pub mod errors;
 pub mod types;
 
 pub use crate::config::{Config, ConfigBuilder};
